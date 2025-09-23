@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rideshare">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RideShare"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RideShare">
+
+        <!-- ProfileActivity as launcher (start screen) -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true">   <!-- ✅ Required for Android 12+ -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- OtpActivity (internal activity, not launcher) -->
+        <activity
+            android:name=".OtpActivity"
+            android:exported="false" /> <!-- ❌ Not launcher, keep false -->
+
+    </application>
+
+</manifest>

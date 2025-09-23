@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014296021949",
+    "project_id": "rideshareotp",
+    "storage_bucket": "rideshareotp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014296021949:android:bfdeb0bbb6ed1d8c13e0d4",
+        "android_client_info": {
+          "package_name": "com.example.rideshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFL1el4I94R3Tjxd5wTGzq_xiWTykmE6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
